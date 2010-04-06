@@ -511,4 +511,11 @@
     </Variables>
     <CustomProperties />
   </Template>
+  <Template uid="1e2e38fb-dd99-4b4d-8808-79e0a307215b" shortcut="reg" description="register a new user control" text="&lt;%@ Register Src=&quot;~/Controls/$Name$.ascx&quot; TagName=&quot;$Name$&quot; TagPrefix=&quot;uc1&quot; %&gt;" reformat="True" shortenQualifiedReferences="True">
+    <Categories />
+    <Variables>
+      <Variable name="Name" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
 </TemplatesExport>

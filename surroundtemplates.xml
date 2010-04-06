@@ -1,1 +1,7 @@
-<TemplatesExport />
+<TemplatesExport>
+  <Template uid="018e399a-a5dd-46aa-bb61-1ff6c89a847a" shortcut="" description="Quotes" text="&quot;$SELECTION$&quot;" reformat="True" shortenQualifiedReferences="True">
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+</TemplatesExport>
