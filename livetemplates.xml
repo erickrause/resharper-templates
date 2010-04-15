@@ -518,4 +518,19 @@
     </Variables>
     <CustomProperties />
   </Template>
+  <Template uid="516c4344-e70b-4173-afe5-f233801aecef" shortcut="rad" description="Rad Doc" text="            &lt;trk:RadDock ID=&quot;$NAME$Dock&quot; Title=&quot;$TITLE$&quot; runat=&quot;server&quot;&#xD;&#xA;                DockHandle=&quot;TitleBar&quot; DockMode=&quot;Docked&quot; EnableDrag=&quot;True&quot; Pinned=&quot;False&quot;&gt;&#xD;&#xA;                &lt;ContentTemplate&gt;&#xD;&#xA;                    &lt;uc1:uc$NAME$ ID=&quot;$NAME$Uc&quot; runat=&quot;server&quot; /&gt;&#xD;&#xA;                &lt;/ContentTemplate&gt;&#xD;&#xA;            &lt;/trk:RadDock&gt; " reformat="True" shortenQualifiedReferences="True">
+    <Categories />
+    <Variables>
+      <Variable name="NAME" expression="" initialRange="0" />
+      <Variable name="TITLE" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="b5d89e6b-13ea-4983-a5c0-44fb903b95ca" shortcut="row" description="Add a row" text="&lt;tr&gt;&#xD;&#xA;	&lt;td&gt;&#xD;&#xA;		$NAME$:&#xD;&#xA;	&lt;/td&gt;&#xD;&#xA;	&lt;td&gt;&#xD;&#xA;		&lt;asp:Label ID=&quot;$NAME$Label&quot; runat=&quot;server&quot; &gt;&lt;/asp:Label&gt;&#xD;&#xA;	&lt;/td&gt;&#xD;&#xA;&lt;/tr&gt;" reformat="True" shortenQualifiedReferences="True">
+    <Categories />
+    <Variables>
+      <Variable name="NAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
 </TemplatesExport>
